@@ -1,11 +1,8 @@
 n=int(input())
 if n>=0:
-    rev=str(n)[::-1]
-    rev=int(rev)
-    print(rev)
+    print(int(str(n)[::-1]))
 else:
-    n=abs(n)
-    rev=str(n)[::-1]
+    rev=str(abs(n))[::-1]
     rev=int(rev)
     tmp='-'+str(rev)
     print(tmp)
