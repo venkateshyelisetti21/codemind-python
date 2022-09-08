@@ -1,7 +1,7 @@
 n=int(input())
 a=list(map(int,input().split()))
-b=int(input())
-if b in a:
+x=int(input())
+if x in a:
     print(True)
 else:
     print(False)
