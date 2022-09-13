@@ -5,6 +5,9 @@ c=[]
 for i in a:
     if i>=x and i<=y:
         pass
-    else:c.append(i)
-if len(c):print(max(c))
-else:print(-1)
+    else:
+        c.append(i)
+if len(c):
+    print(max(c))
+else:
+    print(-1)
