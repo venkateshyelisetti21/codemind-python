@@ -9,10 +9,10 @@ def fun(n):
         return fun(s)
     else:
         return s
-
 n=int(input())
 tmp=fun(n)
 if tmp==1 or tmp==7:
     print(True)
 else:
     print(False)
+        
